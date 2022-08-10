@@ -438,3 +438,4 @@ class MarksCreate(APIView):
             return Response({"status":True,"message":"Data was successfully delete"}, status=status.HTTP_200_OK)
         else:
             return Response({'status':False, 'message':'Data was unsuccessfully delete'}, status=status.HTTP_404_NOT_FOUND)        
+# student end #
